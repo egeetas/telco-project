@@ -29,5 +29,7 @@ To easily spin up the database and reproduce this environment locally, follow th
 
 *(Screenshots of Docker Desktop showing the container running, and DBeaver showing the active connection and tables can be placed here.)*
 
-![Docker Desktop Running Container](<img width="1509" height="432" alt="Ekran Resmi 2026-05-09 00 06 54" src="https://github.com/user-attachments/assets/55c4f715-f723-44ce-b74b-a2f4403ce86e" />)
-![DBeaver Tables View](<img width="1512" height="982" alt="Ekran Resmi 2026-05-09 00 33 18" src="https://github.com/user-attachments/assets/9b2f1b32-55ba-471a-b05c-343405fe8dd6" />)
+<img width="1509" height="432" alt="Ekran Resmi 2026-05-09 00 06 54" src="https://github.com/user-attachments/assets/55c4f715-f723-44ce-b74b-a2f4403ce86e" />
+
+<img width="1512" height="982" alt="Ekran Resmi 2026-05-09 00 33 18" src="https://github.com/user-attachments/assets/9b2f1b32-55ba-471a-b05c-343405fe8dd6" />
+
