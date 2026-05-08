@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  oracle-xe:
+    image: gvenzl/oracle-xe:21-slim
+    container_name: oracle-xe-telco
+    environment:
+      - ORACLE_PASSWORD=oracle
+      - ORACLE_DATABASE=telco
+      - APP_USER=telco_user
+      - APP_USER_PASSWORD=telco_pass
+    ports:
+      - "1521:1521"
+    volumes:
+      - oracle_data:/opt/oracle/oradata
+      - ./TABLE_CREATION_SCRIPTS.sql:/container-entrypoint-initdb.d/01_TABLE_CREATION_SCRIPTS.sql
+
+volumes:
+  oracle_data:
