@@ -117,3 +117,4 @@ You must write SQL queries to address the scenarios listed below. For each query
 * Pay close attention to applying the appropriate data types and constraints when creating your tables.
 * You may use DBeaver or SQL*Plus to handle the `.csv` data imports into Oracle XE.
 * Thoroughly test each query and document both the SQL statement and its resulting output in your submission.
+
